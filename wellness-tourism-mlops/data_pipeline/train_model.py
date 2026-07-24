@@ -1,5 +1,6 @@
 # ============================================
 # Standard Library Imports
+# ============================================
 import os
 import joblib
 
@@ -22,7 +23,9 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 # ============================================
 
 # Configure MLflow to log experiments to the remote tracking server.
+# mlflow.set_tracking_uri(mlflow_public_url)
 mlflow.set_tracking_uri("file:./mlruns")
+
 
 # Create the experiment if it does not exist, otherwise use the existing one.
 MLFLOW_EXPERIMENT_NAME = "Wellness_tourism_MLflow"
