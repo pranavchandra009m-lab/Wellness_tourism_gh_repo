@@ -33,9 +33,9 @@ wellness_tourism_model = load_model()
 # Streamlit App
 # ==============================
 
-st.title("Wellness Tourism Prediction App")
+st.title("Wellness Tourism Prediction App!!!")
 
-st.write("Holaaaaaaaaaa...... Enter customer details to predict purchase probability.")
+st.write("Enter customer details to predict purchase probability.")
 
 
 Age = st.number_input(
