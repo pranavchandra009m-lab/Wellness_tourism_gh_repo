@@ -24,7 +24,7 @@ jobs:
 
       # Download GitHub repository code
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
 
       # Install ML pipeline dependencies
@@ -65,7 +65,7 @@ jobs:
 
 
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
 
 
@@ -102,7 +102,7 @@ jobs:
 
 
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
 
 
@@ -142,7 +142,7 @@ jobs:
 
 
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
 
 
